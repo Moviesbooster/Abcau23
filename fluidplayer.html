@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+<video id="video-id"><source src="https://falling-sky-bcd5.telugudub.workers.dev/1:/Cheppalani_Undi_(2022)_Telugu_700MB.mkv" type="video/mp4" />
+<script>
+    var myFP = fluidPlayer(
+        'video-id',	{
+	"layoutControls": {
+		"controlBar": {
+			"autoHideTimeout": 3,
+			"animated": true,
+			"autoHide": true,
+			"playbackRates": [
+				"x2",
+				"x1.5",
+				"x1",
+				"x0.5"
+			]
+		},
+		"htmlOnPauseBlock": {
+			"html": null,
+			"height": null,
+			"width": null
+		},
+		"autoPlay": false,
+		"mute": false,
+		"allowTheatre": true,
+		"playPauseAnimation": true,
+		"playbackRateEnabled": true,
+		"allowDownload": false,
+		"playButtonShowing": true,
+		"fillToContainer": false,
+		"primaryColor": "",
+		"posterImage": ""
+	},
+	"vastOptions": {
+		"adList": [
+			{
+				"roll": "preRoll",
+				"vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=97f292f80a0ea51242ef3435a03cf15d",
+				"adText": ""
+			},
+			{
+				"roll": "midRoll",
+				"vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=81b96dfd428a9cfb87cb78aad29bce49",
+				"adText": ""
+			},
+			{
+				"roll": "postRoll",
+				"vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=97f292f80a0ea51242ef3435a03cf15d",
+				"adText": ""
+			},
+			{
+				"roll": "onPauseRoll",
+				"vastTag": "https://www.videosprofitnetwork.com/watch.xml?key=81b96dfd428a9cfb87cb78aad29bce49",
+				"adText": ""
+			}
+		],
+		"adCTAText": false,
+		"adCTATextPosition": ""
+	}
+});
+</script>
+</body>
+</html>
